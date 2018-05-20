@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"  
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#ffffff">
+	    
+    <RelativeLayout 
+        android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="60dp"
+	    android:background="#7BC6E9">
+	     <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	           android:layout_centerVertical="true"
+	          
+	            android:textSize="16dp"
+	           
+	            android:text="Add terms View"
+	            android:textColor="#000000"></TextView>
+        
+	 <Button
+	    android:id="@+id/btn_my_library_edit"
+	    android:layout_height="35dp"
+	    android:layout_width="55dp"
+	    android:layout_centerVertical="true"
+	    android:layout_marginRight="6dp"
+	    android:layout_alignParentRight="true"
+	    android:text="Edit"
+	    android:background="#005CFA"
+	    android:textColor="#ffffff"/>
+	   
+	   </RelativeLayout>
+	   <ListView
+	            android:id="@id/android:list"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+                android:dividerHeight="1px"
+	            android:cacheColorHint="#0000"
+	            android:clipToPadding="true"
+	            android:layout_margin="5dp"
+	            android:soundEffectsEnabled="true"
+	            android:scrollbars="none">
+	    </ListView>
+        
+          
+</LinearLayout>
+
+ 
