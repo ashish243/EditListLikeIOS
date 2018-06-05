@@ -37,9 +37,7 @@ import android.widget.TextView;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) 
 	{
-		
 		super.onCreate(savedInstanceState);                 
-		
 		/*hide title bar*/           
     	requestWindowFeature(Window.FEATURE_NO_TITLE);
     	/*set orientation portrait mode*/
